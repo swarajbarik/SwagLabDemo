@@ -1,0 +1,5 @@
+steps\MyLoginClass.class
+steps\Hooks.class
+steps\MyInitClass.class
+runner\MyRunner.class
+steps\BaseClass.class
