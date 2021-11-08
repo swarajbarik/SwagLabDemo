@@ -4,7 +4,6 @@ import java.util.Date;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.testng.annotations.AfterSuite;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
@@ -20,11 +19,5 @@ public class Hooks extends BaseClass{
 	            scenario.attach(screenshot, "image/png", String.valueOf(date)); //stick it in the report
 	    }
 	    Thread.sleep(3000);
-	}
-	
-	@AfterSuite
-	public static void tearDown() {
-		driver.close();
-		driver.quit();
 	}
 }

@@ -81,3 +81,6 @@ Feature: This feature is to test the login functionality of swag lab.
     And User enters password as "secret_sauce"
     Then User hits login button
     And User is succesfully logged in
+    
+    Scenario: Quits Browser
+    Then User quits browser 

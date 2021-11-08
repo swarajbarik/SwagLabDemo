@@ -25,4 +25,9 @@ public class MyInitClass extends BaseClass{
 	public void user_hits_url() {
 		navigateToUrl();
 	}
+	
+	@Then("User quits browser")
+	public void user_quits_browser() {
+		driver.quit();
+	}
 }
