@@ -24,3 +24,4 @@ Report Directory:
 Note:
 1.  All Scenarios are automated inside src/test/resources/Login.feature 
 2.  1 test failed knowingly to show the screenshot attachment for failed cases
+3. To run in Firefox, Open src/test/resources/Login.feature  file > Modify chrome to firefox in line 4.
